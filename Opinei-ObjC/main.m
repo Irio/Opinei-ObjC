@@ -7,14 +7,28 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Representative.h"
+#import "Proposition.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Representative *representative1 = [[Representative alloc] init];
+        [representative1 setName:@"Abelardo Camarinha"];
+        Representative *representative2 = [[Representative alloc] init];
+        [representative2 setName:@"Acelino Popó"];
+        Representative *representative3 = [[Representative alloc] init];
+        [representative3 setName:@"Alceu Moreira"];
+        
+        Proposition *proposition = [[Proposition alloc] init];
+        [proposition setRepresentatives: [NSArray arrayWithObjects:representative1, representative2, representative3, nil]];
+        
+        // Showing all representatives
+        NSLog(@"%@", [[[proposition representatives] objectAtIndex:0] name]);
+        NSLog(@"%@", [[[proposition representatives] objectAtIndex:1] name]);
+        NSLog(@"%@", [[[proposition representatives] objectAtIndex:2] name]);
         
     }
     return 0;

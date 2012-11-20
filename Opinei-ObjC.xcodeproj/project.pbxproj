@@ -12,6 +12,7 @@
 		0DE5F01B165B150C004BE372 /* Opinei_ObjC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0DE5F01A165B150C004BE372 /* Opinei_ObjC.1 */; };
 		0DE5F023165B154E004BE372 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5F022165B154E004BE372 /* User.m */; };
 		0DE5F026165B162D004BE372 /* Representative.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5F025165B162D004BE372 /* Representative.m */; };
+		0DE5F029165B1780004BE372 /* Proposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5F028165B1780004BE372 /* Proposition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		0DE5F022165B154E004BE372 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		0DE5F024165B162D004BE372 /* Representative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Representative.h; sourceTree = "<group>"; };
 		0DE5F025165B162D004BE372 /* Representative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Representative.m; sourceTree = "<group>"; };
+		0DE5F027165B1780004BE372 /* Proposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proposition.h; sourceTree = "<group>"; };
+		0DE5F028165B1780004BE372 /* Proposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proposition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				0DE5F018165B150C004BE372 /* Supporting Files */,
 				0DE5F021165B154E004BE372 /* User.h */,
 				0DE5F024165B162D004BE372 /* Representative.h */,
+				0DE5F027165B1780004BE372 /* Proposition.h */,
+				0DE5F028165B1780004BE372 /* Proposition.m */,
 				0DE5F025165B162D004BE372 /* Representative.m */,
 				0DE5F022165B154E004BE372 /* User.m */,
 			);
@@ -152,6 +157,7 @@
 				0DE5F017165B150C004BE372 /* main.m in Sources */,
 				0DE5F023165B154E004BE372 /* User.m in Sources */,
 				0DE5F026165B162D004BE372 /* Representative.m in Sources */,
+				0DE5F029165B1780004BE372 /* Proposition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
