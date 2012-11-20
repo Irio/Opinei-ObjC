@@ -14,6 +14,7 @@
 		0DE5F026165B162D004BE372 /* Representative.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5F025165B162D004BE372 /* Representative.m */; };
 		0DE5F029165B1780004BE372 /* Proposition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5F028165B1780004BE372 /* Proposition.m */; };
 		0DE5F02C165B1DA4004BE372 /* Vote.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5F02B165B1DA4004BE372 /* Vote.m */; };
+		0DE5F02F165B1E5E004BE372 /* RepresentativeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5F02E165B1E5E004BE372 /* RepresentativeResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		0DE5F028165B1780004BE372 /* Proposition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proposition.m; sourceTree = "<group>"; };
 		0DE5F02A165B1DA4004BE372 /* Vote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vote.h; sourceTree = "<group>"; };
 		0DE5F02B165B1DA4004BE372 /* Vote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vote.m; sourceTree = "<group>"; };
+		0DE5F02D165B1E5E004BE372 /* RepresentativeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepresentativeResult.h; sourceTree = "<group>"; };
+		0DE5F02E165B1E5E004BE372 /* RepresentativeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepresentativeResult.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 			children = (
 				0DE5F016165B150C004BE372 /* main.m */,
 				0DE5F02A165B1DA4004BE372 /* Vote.h */,
+				0DE5F02D165B1E5E004BE372 /* RepresentativeResult.h */,
+				0DE5F02E165B1E5E004BE372 /* RepresentativeResult.m */,
 				0DE5F02B165B1DA4004BE372 /* Vote.m */,
 				0DE5F01A165B150C004BE372 /* Opinei_ObjC.1 */,
 				0DE5F018165B150C004BE372 /* Supporting Files */,
@@ -164,6 +169,7 @@
 				0DE5F026165B162D004BE372 /* Representative.m in Sources */,
 				0DE5F029165B1780004BE372 /* Proposition.m in Sources */,
 				0DE5F02C165B1DA4004BE372 /* Vote.m in Sources */,
+				0DE5F02F165B1E5E004BE372 /* RepresentativeResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
